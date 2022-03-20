@@ -1,0 +1,48 @@
+*{
+
+}
+header{
+    justify-content: space-between;
+    display: flex;
+    margin-left: 50px;
+}
+li:hover{
+    cursor: pointer;
+    color: red;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+}
+nav{
+    width: 60vw;
+    margin-top: 10px;
+}
+
+.big image{
+    width: 95vw;
+    margin: 1rem;
+    margin-bottom: 4rem;
+}
+.container{
+    display: flex;
+}
+.container>div{
+    
+    text-align: center;
+    margin: 2rem;
+}
+.container>div>p{
+    font-size: x-large;
+}
+footer{
+    background-color: black;
+    height: 3rem;
+}
+footer>p{
+    text-align: center;
+    color: aliceblue;
+    padding: 1rem;
+}
